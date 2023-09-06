@@ -7,3 +7,13 @@ def rectangle(length_width):
 w= float(input("Enter width of rectangle: ")) 
 l = float(input("Enter length of rectangle: "))
 rectangle (w*l)  
+
+
+#anotherway to write this code.
+def rectangle(length, width):
+    area = length * width
+    print(f"Area = {area}")
+
+W = float(input("Enter width of rectangle: ")) 
+L = float(input("Enter length of rectangle: "))
+rectangle(L, W)
