@@ -1,7 +1,11 @@
 #Practice of conditional statement: 
-age = int(input("What's your age? : "))
+def person_age(its):
+    print(f"Your age is {its}")
+
+age = int(input("What's your age? : , "))
+person_age(age)
 
 if age <= 17:
-    print("You are MINOR!")
+    print("So, you are MINOR!")
 else:
-    print("You are ADULT!")    
+    print("So, you are ADULT!")    
