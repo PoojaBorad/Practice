@@ -1,6 +1,7 @@
-def hello(person = "world"):
-    print(f"Hello, {person}!")
+#Practice of conditional statement: 
+age = int(input("What's your age? : "))
 
-hello()
-name = input("What's your name? ")
-hello(name)
+if age <= 17:
+    print("You are MINOR!")
+else:
+    print("You are ADULT!")    
