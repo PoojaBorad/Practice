@@ -12,8 +12,8 @@ def only_number():
         except ValueError:
             print("Invalid number. Write only number.")
         else:
-            break
-    return number    
+            return number
+        
 
 main()
 
