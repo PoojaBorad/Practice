@@ -34,4 +34,4 @@ while True:
       
     else:
       print("Invalid input. Please try again.")
-    
+    break
