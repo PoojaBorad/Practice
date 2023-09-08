@@ -5,3 +5,6 @@ print("List of the Numbers!", numbers)
 
 acesnding_order = sorted(numbers)
 print("Let's sort it out in Ascending Order: ",acesnding_order)
+
+descending_order = list(reversed(acesnding_order))
+print("Let's sort it out in Descending Order: ", descending_order)
