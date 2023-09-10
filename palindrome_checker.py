@@ -5,7 +5,7 @@ def palindrome (user_input):
 
     #reversed_input = ''.join(reversed(user_input))
 
-# Using slicind instead of reversed.
+# Using slicing instead of reversed.
     return user_input == user_input[::-1]
 
 user = input("Write string to to check if it is a palindrome: ")
