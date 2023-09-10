@@ -1,7 +1,7 @@
 print("Write a program that checks if a given string is a palindrome (reads the same backward as forward).")
 
 def palindrome (user_input):
-    user_input = user_input.replace(" ", " ").lower()
+    user_input = ''.join(filter(str.isalnum, user_input)).lower()
 
     #reversed_input = ''.join(reversed(user_input))
 
