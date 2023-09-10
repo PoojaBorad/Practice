@@ -8,7 +8,7 @@ def palindrome (user_input):
 # Using slicind instead of reversed.
     return user_input == user_input[::-1]
 
-user = input("Write string to which is Palindrome or not: ")
+user = input("Write string to to check if it is a palindrome: ")
 if palindrome(user): 
     print(f"'{user}' is a Palindrome!")
  
